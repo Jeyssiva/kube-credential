@@ -1,7 +1,7 @@
 import { CredentialPayload } from '../types/credential';
 
-const ISSUANCE_BASE = import.meta.env.ISSUANCE_API_URL ?? 'http://localhost:3001/api';
-const VERIFICATION_BASE = import.meta.env.VERIFICATION_API_URL ?? 'http://localhost:4001/api';
+const ISSUANCE_BASE = import.meta.env.VITE_ISSUANCE_API_URL ?? 'http://localhost:3001/api';
+const VERIFICATION_BASE = import.meta.env.VITE_VERIFICATION_API_URL ?? 'http://localhost:4001/api';
 
 async function postJson(url: string, data: any) {
   const res = await fetch(url, {
