@@ -1,0 +1,17 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model VerificationLog {
+  id         Int      @id @default(autoincrement())
+  hash       String
+  payload    String
+  verifiedAt DateTime @default(now())
+  workerId   String
+  result     String
+}
