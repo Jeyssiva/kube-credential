@@ -15,7 +15,7 @@
     7.If not exists, send the request to Issuance service with hash key and retrieve the record from the service. If record found, responds to client "Credential data verified from Issuance", Otherwise responds "Credential Not found"
 
 ## High Level Architecture
-    ![High level](./highlevel.png)
+    ![Highlevel](./highlevel.png)
 
 
 ##  Deployment Procedures
