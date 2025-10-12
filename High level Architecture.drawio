@@ -7,10 +7,10 @@
         <mxCell id="aZOHgID_w5jxBwIXhOc6-1" value="Client&lt;div&gt;Port - 5173&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="130" width="120" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-2" value="&lt;b&gt;Issuance Service&lt;/b&gt;&lt;div&gt;worker - issuance -worker&lt;/div&gt;&lt;div&gt;SQLite - dev.db&lt;/div&gt;&lt;div&gt;Port - 3001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aZOHgID_w5jxBwIXhOc6-2" value="&lt;b&gt;Issuance Service&lt;/b&gt;&lt;div&gt;worker - issuance -worker&lt;/div&gt;&lt;div&gt;Port - 3001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="40" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-3" value="&lt;b&gt;Verification Service&lt;/b&gt;&lt;div&gt;Worker - verification-worker&lt;/div&gt;&lt;div&gt;SQLite - verify.db&lt;/div&gt;&lt;div&gt;Port - 4001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aZOHgID_w5jxBwIXhOc6-3" value="&lt;b&gt;Verification Service&lt;/b&gt;&lt;div&gt;Worker - verification-worker&lt;/div&gt;&lt;div&gt;Port - 4001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="280" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="aZOHgID_w5jxBwIXhOc6-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.028;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aZOHgID_w5jxBwIXhOc6-1">
@@ -31,17 +31,11 @@
             <mxPoint x="480" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-18" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="400" y="210" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="aZOHgID_w5jxBwIXhOc6-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="aZOHgID_w5jxBwIXhOc6-2" target="aZOHgID_w5jxBwIXhOc6-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="250" as="sourcePoint" />
             <mxPoint x="430" y="200" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-23" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="170" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aZOHgID_w5jxBwIXhOc6-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.611;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.6;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aZOHgID_w5jxBwIXhOc6-2" target="aZOHgID_w5jxBwIXhOc6-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -55,17 +49,23 @@
             <mxPoint x="190" y="241" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-27" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="465" y="198" width="30" height="30" as="geometry" />
+        <mxCell id="aZOHgID_w5jxBwIXhOc6-34" value="SQLite - dev.db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="65" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-28" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="295" y="255" width="30" height="30" as="geometry" />
+        <mxCell id="aZOHgID_w5jxBwIXhOc6-35" value="SQLite - verify.db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-29" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="245" y="298" width="30" height="30" as="geometry" />
+        <mxCell id="aZOHgID_w5jxBwIXhOc6-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aZOHgID_w5jxBwIXhOc6-2" target="aZOHgID_w5jxBwIXhOc6-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="108" as="sourcePoint" />
+            <mxPoint x="570" y="58" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="aZOHgID_w5jxBwIXhOc6-30" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="275" y="108" width="30" height="30" as="geometry" />
+        <mxCell id="aZOHgID_w5jxBwIXhOc6-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aZOHgID_w5jxBwIXhOc6-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="350" as="sourcePoint" />
+            <mxPoint x="570" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
