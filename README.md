@@ -10,6 +10,7 @@
     6.Verifcation Service checks if the data is already verified or not in verify.db(SQLite), If exists then fetch the record from the verify.db and responds "Credential data verified from local"
     7.If not exists, send the request to Issuance service with hash key and retrieve the record from the service. If record found, responds to client "Credential data verified from Issuance", Otherwise responds "Credential Not found"
 
+##  Deployment Procedures
 ### git clone https://github.com/Jeyssiva/kube-credential.git
 ### Issuance Service - Port : 3001
 ### cd kube-credential/kube-issuance
