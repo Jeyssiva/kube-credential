@@ -10,36 +10,36 @@
     6.Verifcation Service checks if the data is already verified or not in verify.db(SQLite), If exists then fetch the record from the verify.db and responds "Credential data verified from local"
     7.If not exists, send the request to Issuance service with hash key and retrieve the record from the service. If record found, responds to client "Credential data verified from Issuance", Otherwise responds "Credential Not found"
 
-## git clone https://github.com/Jeyssiva/kube-credential.git
-## Issuance Service - Port : 3001
-## cd kube-credential/kube-issuance
-## Install
+### git clone https://github.com/Jeyssiva/kube-credential.git
+### Issuance Service - Port : 3001
+### cd kube-credential/kube-issuance
+### Install
     npm install
-## Prisma generate + push
+### Prisma generate + push
     npx prisma generate
     npx prisma db push
 
     db push will create the SQLite file and push the schema.
-## Run locally (dev)
+### Run locally (dev)
     npm run dev
-## Verification Service - Port : 4001
-## cd kube-credential/kube-verification
-## Install
+### Verification Service - Port : 4001
+### cd kube-credential/kube-verification
+### Install
     npm install
-## Prisma generate + push
+### Prisma generate + push
     npx prisma generate
     npx prisma db push
 
     db push will create the SQLite file and push the schema.
-## Run locally (dev)
+### Run locally (dev)
     npm run dev
-## Front end - Port : 5173
-## cd kube-credential/kube-frontend
-## Install
+### Front end - Port : 5173
+### cd kube-credential/kube-frontend
+### Install
     npm install
-## Run locally (dev)
+### Run locally (dev)
     npm run dev
-## Run in Docker 
+### Run in Docker 
     docker compose build
     docker compose up - Activate the docker service
     docker compose down - Deactivate the docker service
