@@ -5,8 +5,8 @@ export async function issue(credential: any, workerId: string) {
   const hash = computeHash(credential);
   const existing = await prisma.credential.findUnique({ where: { hash } });
 
-  const findMany = await prisma.credential.findMany();
-  console.log(findMany)
+  // const findMany = await prisma.credential.findMany();
+  // console.log(findMany)
   if (existing) {
     return { alreadyIssued: true, credential: existing };
   }
