@@ -6,6 +6,7 @@ import logger from '../utils/logger';
 const ISSUANCE_URL = process.env.ISSUANCE_URL;
 
 export async function verify(credential: any, workerId: string) {
+  logger.info(`Verification Started ${ISSUANCE_URL}`)
   const hash = computeHash(credential);
 
   // 1) Check local DB
