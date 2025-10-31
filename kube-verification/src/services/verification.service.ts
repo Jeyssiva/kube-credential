@@ -18,6 +18,7 @@ export async function verify(credential: any, workerId: string) {
   if (ISSUANCE_URL) {
     try {
       const url = `${ISSUANCE_URL.replace(/\/$/, '')}/api/issued/${hash}`;
+      logger.info(`Issuance_URL:${url}`);
       const res = await fetch(url);
       if (res.ok) {
         const responseData = await res.json();
